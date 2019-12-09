@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css?family=Hind+Siliguri&display=swap');
+
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Hind Siliguri', sans-serif;
+    background-color: #fbf9fc;
+    color: #222;
+}
+
+.navbar {
+    padding: .3rem;
+}
+
+.navbar-nav li {
+    padding-left: 0.35em;
+}
+
+.nav-link {
+    font-size: 1em;
+}
+
+.search-container input {
+    width: 100px;
+    background-color: white;
+
+}
+
+.carousel-inner img {
+    height: 100%;
+    width: 100%;
+}
+
+.carousel-caption h1 {
+    font-size: 5vw;
+    text-shadow: 1px 1px 15px white;
+}
+
+.carousel-caption h2 {
+    font-size: 3vw;
+    text-shadow: 1px 1px 15px white;
+    font-weight: 500;
+}
+
+.btn-dark {
+    background-color: #292929;
+    border: 1px solid black;
+}
+
+.btn-light {
+    color: #292929;
+    border: 1px solid black;
+}
+.btn-secondary {
+    background-color: #454343;
+    border: 1px solid black;
+}
+
+.padding {
+    padding-bottom: 2rem;
+}
+
+.welcome {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 2rem;
+}
+
+.welcome hr {
+    border-top: 1px solid #5c5b5b;
+    width: 90%;
+    margin-top: .3rem;
+    margin-bottom: 1rem;
+}
+
+.welcome h4 {
+    margin-bottom: 1rem;
+    margin-top: 1.5rem;
+}
+
+.card {
+    margin: 0.5rem;
+}
+
+.img-card-top {
+    padding: 2em;
+    height: 100%;
+    width: 100%;
+}
+
+.btn-block {
+    margin-top: 1em;
+}
+
+.pic img {
+    margin-top: 1.5rem;
+}
+
+.social {
+    font-size: 3em;
+    padding: .5rem;
+}
+
+.fa-facebook-square {
+    color: #3b5998;
+}
+
+.fa-instagram {
+    color: #517fa4;
+}
+
+.fa-youtube {
+    color: #bb0000;
+}
+
+.fa-facebook-square:hover,
+.fa-instagram:hover,
+.fa-youtube:hover {
+    color: #d5d5d5;
+}
+
+.contact h1 {
+    margin-top: 1.5rem;
+}
+
+.contact hr {
+    border-top: 1px solid #5c5b5b;
+    width: 100%;
+    margin-top: .3rem;
+    margin-bottom: 1.5rem;
+}
+
+.contact a:link {
+    color: #222;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.contact a:hover{
+    color: #5c5b5b;
+}
+
+.shop a {
+    color: #292929;
+    text-decoration: underline;
+}
+
+.shop a:hover {
+    color: #5c5b5b;
+}
+* {box-sizing: border-box;}
+
+.reveal {
+	position: relative;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.reveal:not(.reveal-loaded) * {
+	display: block;
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: auto;
+}
+
+.reveal:not(.reveal-loaded) *:nth-child(2) {
+	display: none;
+}
+
+.reveal-img {
+	display: block;
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: auto;
+}
+
+.reveal-img:nth-child(2) {
+	position: absolute;
+}
+
+.reveal-bar {
+	position: absolute;
+	top: 0;
+	width: 5px;
+	height: 100%;
+	background: #000000;
+	-webkit-transform: translate3d(-50%, 0, 0);
+	transform: translate3d(-50%, 0, 0);
+	opacity: 0.7;
+	cursor: ew-resize;
+	touch-action: none;
+}
+
+.reveal-grabber {
+	position: absolute;
+	top: 50%;
+	width: 50px;
+	height: 30px;
+	border-radius: 30%;
+	background: #000000;
+	left: -23px;
+	border: 1px solid white;
+	-webkit-transform: translateY(-15px);
+	transform: translateY(-15px);
+}
+
+.reveal-arrows {
+	position: relative;
+	top: 1px;
+	font-size: 15px;
+	color: white;
+	text-align: center;
+}
+.youtube-responsive-container {
+position:relative;
+padding-bottom:56.25%;
+padding-top:30px;
+height:0;
+overflow:hidden;
+}
+
+.youtube-responsive-container iframe, .youtube-responsive-container object, .youtube-responsive-container embed {
+position:absolute;
+top:0;
+left:0;
+width:100%;
+height:100%;
+}
+div.row > div > div.row {
+                margin-bottom: 15px;
+            }
+
+
+
+.map-responsive iframe {
+    width: 100%;
+
+}
+
+@media (max-widht: 992px) {
+
+}
+@media (max-widht: 768px) {
+  
+}
+@media (max-widht: 576px) {
+    
+}
